@@ -1,6 +1,7 @@
-import { Stack } from '@mui/material';
+import { Stack, Typography } from '@mui/material';
 import * as React from 'react';
 import {useEffect} from 'react';
+import IconButtons from './components/IconButtons';
 import MuiButtons from './components/MuiButtons';
 import MuiTypography from './components/MuiTypography';
 
@@ -12,11 +13,19 @@ function App() {
 
   return (
     <>
+    <Typography>Typography</Typography>
+
       <Stack spacing={2}>
         <MuiTypography />
       </Stack>
 
+      <Typography>Buttons</Typography>
+
       <MuiButtons />
+
+      <Typography>Icon Buttons</Typography>
+
+      <IconButtons/>
     </>
   );
 }
