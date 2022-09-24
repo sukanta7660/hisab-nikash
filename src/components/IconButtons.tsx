@@ -16,7 +16,12 @@ const IconButtons = () => {
       </Stack>
 
       <Stack spacing={2} margin={2} direction='row'>
-        <Button variant='contained' startIcon={<Save/>} color='primary'>Primary</Button>
+        <Button 
+          variant='contained' 
+          startIcon={<Save/>} 
+          color='primary'>
+          Primary
+        </Button>
         <Button variant='contained' startIcon={<Save/>} color='secondary'>Secondary</Button>
         <Button variant='contained' startIcon={<Save/>} color='error'>Error</Button>
         <Button variant='contained' startIcon={<Save/>} color='warning'>Warning</Button>
