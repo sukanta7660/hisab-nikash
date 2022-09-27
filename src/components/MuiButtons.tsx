@@ -1,4 +1,4 @@
-import { Button } from "@mui/material";
+import {Button, ButtonGroup} from "@mui/material";
 import { Stack } from "@mui/system";
 
 const MuiButtons = () => {
@@ -18,6 +18,17 @@ const MuiButtons = () => {
         <Button variant='contained' color='warning'>Warning</Button>
         <Button variant='contained' color='info'>Info</Button>
         <Button variant='contained' color='success'>Success</Button>
+      </Stack>
+
+      <Stack spacing={2} margin={2} direction='row'>
+          <ButtonGroup variant='contained'>
+              <Button color='primary'>Primary</Button>
+              <Button color='secondary'>Secondary</Button>
+              <Button color='error'>Error</Button>
+              <Button color='warning'>Warning</Button>
+              <Button color='info'>Info</Button>
+              <Button color='success'>Success</Button>
+          </ButtonGroup>
       </Stack>
     </>
   );
