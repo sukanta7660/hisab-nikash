@@ -4,6 +4,7 @@ import {useEffect} from 'react';
 import IconButtons from './components/IconButtons';
 import MuiButtons from './components/MuiButtons';
 import MuiTypography from './components/MuiTypography';
+import StarRating from "./components/StarRating";
 
 
 function App() {
@@ -26,6 +27,10 @@ function App() {
       <Typography>Icon Buttons</Typography>
 
       <IconButtons/>
+
+      <Typography>Star Rating</Typography>
+
+      <StarRating />
     </>
   );
 }
