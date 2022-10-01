@@ -6,6 +6,7 @@ import MuiButtons from './components/MuiButtons';
 import MuiTypography from './components/MuiTypography';
 import StarRating from "./components/StarRating";
 import AlignedButtons from "./components/AlignedButtons";
+import SplitButton from "./components/SplitButton";
 
 
 function App() {
@@ -36,6 +37,10 @@ function App() {
       <Typography>Color And Sized Button</Typography>
 
       <AlignedButtons />
+
+      <Typography>Split Button</Typography>
+
+      <SplitButton />
     </>
   );
 }
