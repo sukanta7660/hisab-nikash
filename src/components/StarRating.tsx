@@ -5,8 +5,6 @@ const StarRating = () => {
 
     const [value, setValue] = useState<number | null>(null)
 
-    console.log({ value })
-
     const handleChange = (
         _event: React.ChangeEvent<{}>,
         newValue: number | null
