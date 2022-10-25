@@ -7,6 +7,7 @@ import MuiTypography from './components/MuiTypography';
 import StarRating from "./components/StarRating";
 import AlignedButtons from "./components/AlignedButtons";
 import SplitButton from "./components/SplitButton";
+import AutoComplete from "./components/AutoComplete";
 
 
 function App() {
@@ -41,6 +42,10 @@ function App() {
       <Typography>Split Button</Typography>
 
       <SplitButton />
+
+      <Typography>Auto Complete</Typography>
+
+      <AutoComplete />
     </>
   );
 }
